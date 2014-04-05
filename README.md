@@ -13,7 +13,7 @@ with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Woerglcoin is also the name of the open source
 software which enables the use of this currency.
 
-Woerglcoin is a currency that is designed on the basis of Woergl freemoney which caused an economic boost in 1932 in the town Woergl in Austria during a world wide Time of recession.
+Woerglcoin is a currency that is designed on the basis of Woergl freemoney which caused an economic boost in 1932 in the town Woergl in Austria during a phase of world wide recession.
 
 License
 -------
