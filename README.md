@@ -1,26 +1,24 @@
-Freicoin integration/staging tree
+Woerglcoin integration/staging tree
 =================================
 
-http://www.freico.in/
 
 Copyright (c) 2009-2013 Bitcoin Developers
 
-What is Freicoin?
+What is Woerglcoin?
 -----------------
 
-Freicoin is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. Freicoin uses peer-to-peer technology to operate
+Woerglcoin is an experimental new digital currency that enables instant payments to
+anyone, anywhere in the world. Woerglcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Freicoin is also the name of the open source
+out collectively by the network. Woerglcoin is also the name of the open source
 software which enables the use of this currency.
 
-For more information, as well as an immediately useable, binary version of
-the Freicoin client software, see http://www.freico.in.
+For more information please wait.
 
 License
 -------
 
-Freicoin is released under the terms of the MIT license. See `COPYING` for more
+Woerglcoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -29,12 +27,12 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Freicoin
+If it is a simple/trivial/non-controversial change, then one of the Woerglcoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
 submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](https://groups.google.com/forum/#!forum/freicoin).
+[mailing list](https://groups.google.com/forum/#!forum/woerglcoin).
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -42,8 +40,8 @@ match the project's coding conventions (see `doc/coding.md`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/freicoin/freicoin/tags) are created
-regularly to indicate new official, stable release versions of Freicoin.
+completely stable. [Tags](https://github.com/woerglcoin/woerglcoin/tags) are created
+regularly to indicate new official, stable release versions of Woerglcoin.
 
 Testing
 -------
@@ -64,9 +62,9 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake FREICOIN_QT_TEST=1 -o Makefile.test freicoin-qt.pro
+    qmake WOERGLCOIN_QT_TEST=1 -o Makefile.test woerglcoin-qt.pro
     make -f Makefile.test
-    ./freicoin-qt_test
+    ./woerglcoin-qt_test
 
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
