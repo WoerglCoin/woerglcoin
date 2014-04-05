@@ -32,7 +32,7 @@ development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
 submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](https://groups.google.com/forum/#!forum/woerglcoin).
+mailing list (link is comming soon).
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -40,7 +40,7 @@ match the project's coding conventions (see `doc/coding.md`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/woerglcoin/woerglcoin/tags) are created
+completely stable. Tags (link is comming soon) are created
 regularly to indicate new official, stable release versions of Woerglcoin.
 
 Testing
