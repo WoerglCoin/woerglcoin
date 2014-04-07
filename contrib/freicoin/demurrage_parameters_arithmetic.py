@@ -11,7 +11,7 @@ TOTAL_SUPPLY   = 10**16 - 1
 EQ_HEIGHT      = 161280
 TITHE_RATIO    = Fraction(4,5)
 TITHE_AMOUNT   = TOTAL_SUPPLY * TITHE_RATIO / EQ_HEIGHT
-DEMURRAGE_RATE = 2**20
+DEMURRAGE_RATE = 2**18
 
 def sample_run(subsidy):
   def get_block_value(height):
