@@ -57,7 +57,7 @@ inline bool MoneyRange(mpz zValue) { return (zValue >= 0 && zValue <= MPZ_MAX_MO
 inline bool MoneyRange(mpq qValue) { return (qValue >= 0 && qValue <= MPQ_MAX_MONEY); }
 /** Subsidy, demurrage, and budgetary requirements for Freicoin host currency */
 static const int EQ_HEIGHT = 161280;
-static const mpq TITHE_RATIO = mpq("4/5");
+static const mpq TITHE_RATIO = mpq("19/20");
 static const mpq TITHE_AMOUNT = MPQ_MAX_MONEY * TITHE_RATIO / EQ_HEIGHT;
 static const mpq INITIAL_SUBSIDY = mpq("15916928404");
 static const int DEMURRAGE_RATE = 1048576;
