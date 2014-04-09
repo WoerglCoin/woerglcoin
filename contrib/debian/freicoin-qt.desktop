@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Freicoin
-Comment=Freicoin P2P Cryptocurrency
-Comment[fr]=Freicoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Freicoin, eşten eşe kriptografik sanal para birimi
-Exec=/usr/bin/freicoin-qt %u
+Name=Woerglcoin
+Comment=Woerglcoin P2P Cryptocurrency
+Comment[fr]=Woerglcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Woerglcoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/woerglcoin-qt %u
 Terminal=false
 Type=Application
-Icon=/usr/share/pixmaps/freicoin128.png
-MimeType=x-scheme-handler/freicoin;
+Icon=/usr/share/pixmaps/woerglcoin128.png
+MimeType=x-scheme-handler/woerglcoin;
 Categories=Office; Finance;

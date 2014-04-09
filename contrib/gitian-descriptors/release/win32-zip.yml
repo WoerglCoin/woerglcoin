@@ -10,8 +10,8 @@ packages:
 reference_datetime: "2012-07-01 00:00:00"
 remotes: []
 files:
-- "Freicoin-Qt-i686-static-mingw32-0.8.6.1-gitian.zip"
-- "freicoind-i686-static-mingw32-0.8.6.1-gitian.zip"
+- "Woerglcoin-Qt-i686-static-mingw32-0.8.6.1-gitian.zip"
+- "woerglcoind-i686-static-mingw32-0.8.6.1-gitian.zip"
 - "src-local.tar.xz"
 script: |
   export ARCH=win32
@@ -21,27 +21,27 @@ script: |
   
   export GITIANDIR=`pwd`
   
-  FREICOIN_VER=0.8.6.1
+  WOERGLCOIN_VER=0.8.6.1
   
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export TZ=UTC
   export FAKETIME=$REFERENCE_DATETIME
   
-  mkdir -p "$PREFIX"/freicoin-${FREICOIN_VER}-${ARCH}
-  pushd "$PREFIX"/freicoin-${FREICOIN_VER}-${ARCH}
+  mkdir -p "$PREFIX"/woerglcoin-${WOERGLCOIN_VER}-${ARCH}
+  pushd "$PREFIX"/woerglcoin-${WOERGLCOIN_VER}-${ARCH}
 
   mkdir -p src
   tar -C src -xf "$GITIANDIR"/src-local.tar.xz
   cp -a src/doc/README_windows.txt ./README.txt
   cp -a src/COPYING ./COPYING.txt
-  unzip "$GITIANDIR"/freicoind-i686-static-mingw32-${FREICOIN_VER}-gitian.zip bin/freicoind.exe
+  unzip "$GITIANDIR"/woerglcoind-i686-static-mingw32-${WOERGLCOIN_VER}-gitian.zip bin/woerglcoind.exe
   mkdir -p daemon
-  mv bin/freicoind.exe daemon/
-  unzip "$GITIANDIR"/Freicoin-Qt-i686-static-mingw32-${FREICOIN_VER}-gitian.zip bin/Freicoin-Qt.exe
-  mv bin/Freicoin-Qt.exe ./
+  mv bin/woerglcoind.exe daemon/
+  unzip "$GITIANDIR"/Woerglcoin-Qt-i686-static-mingw32-${WOERGLCOIN_VER}-gitian.zip bin/Woerglcoin-Qt.exe
+  mv bin/Woerglcoin-Qt.exe ./
   rmdir bin
   
   cd ..
-  find freicoin-${FREICOIN_VER}-${ARCH} -not -type d -print0 | sort -z | xargs -0 \
-    zip -r "$OUTDIR"/freicoin-${FREICOIN_VER}-${ARCH}.zip
+  find woerglcoin-${WOERGLCOIN_VER}-${ARCH} -not -type d -print0 | sort -z | xargs -0 \
+    zip -r "$OUTDIR"/woerglcoin-${WOERGLCOIN_VER}-${ARCH}.zip
   popd

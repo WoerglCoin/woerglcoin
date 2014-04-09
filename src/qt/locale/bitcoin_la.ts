@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Freicoin</source>
-        <translation>Informatio de Freicoin</translation>
+        <source>About Woerglcoin</source>
+        <translation>Informatio de Woerglcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Freicoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Freicoin&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;Woerglcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Woerglcoin&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,8 +35,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+0"/>
-        <source>The Freicoin developers</source>
-        <translation>Freicoin curatores</translation>
+        <source>The Woerglcoin developers</source>
+        <translation>Woerglcoin curatores</translation>
     </message>
 </context>
 <context>
@@ -68,8 +68,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Freicoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Haec sunt inscriptiones Freicoin tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
+        <source>These are your Woerglcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Haec sunt inscriptiones Woerglcoin tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,8 +83,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Freicoin address</source>
-        <translation>Signa nuntium ut demonstres inscriptionem Freicoin a te possessam esse</translation>
+        <source>Sign a message to prove you own a Woerglcoin address</source>
+        <translation>Signa nuntium ut demonstres inscriptionem Woerglcoin a te possessam esse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,8 +108,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Freicoin address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione Freicoin</translation>
+        <source>Verify a message to ensure it was signed with a specified Woerglcoin address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione Woerglcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Freicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Woerglcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -254,12 +254,12 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FREICOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WOERGLCOINS&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Freicoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your freicoins from being stolen by malware infecting your computer.</source>
+        <source>Woerglcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your woerglcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -375,8 +375,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Freicoin</source>
-        <translation>Monstra informationem de Freicoin</translation>
+        <source>Show information about Woerglcoin</source>
+        <translation>Monstra informationem de Woerglcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Freicoin address</source>
-        <translation>Mitte nummos ad inscriptionem Freicoin</translation>
+        <source>Send coins to a Woerglcoin address</source>
+        <translation>Mitte nummos ad inscriptionem Woerglcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Freicoin</source>
-        <translation>Muta configurationis optiones pro Freicoin</translation>
+        <source>Modify configuration options for Woerglcoin</source>
+        <translation>Muta configurationis optiones pro Woerglcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Freicoin</source>
-        <translation>Freicoin</translation>
+        <source>Woerglcoin</source>
+        <translation>Woerglcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Freicoin</source>
-        <translation>&amp;Informatio de Freicoin</translation>
+        <source>&amp;About Woerglcoin</source>
+        <translation>&amp;Informatio de Woerglcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,13 +501,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Freicoin addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus Freicoin ut demonstres te eas possidere</translation>
+        <source>Sign messages with your Woerglcoin addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus Woerglcoin ut demonstres te eas possidere</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Freicoin addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Freicoin</translation>
+        <source>Verify messages to ensure they were signed with specified Woerglcoin addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Woerglcoin</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,14 +537,14 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+47"/>
-        <source>Freicoin client</source>
-        <translation>Freicoin cliens</translation>
+        <source>Woerglcoin client</source>
+        <translation>Woerglcoin cliens</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Freicoin network</source>
+        <source>%n active connection(s) to Woerglcoin network</source>
         <translation>
-            <numerusform>%n activa conexio ad rete Freicoin</numerusform>
+            <numerusform>%n activa conexio ad rete Woerglcoin</numerusform>
         </translation>
     </message>
     <message>
@@ -665,8 +665,8 @@ Inscriptio: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Freicoin address or malformed URI parameters.</source>
-        <translation>URI intellegi non posse!  Huius causa possit inscriptionem Freicoin non validam aut URI parametra maleformata.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Woerglcoin address or malformed URI parameters.</source>
+        <translation>URI intellegi non posse!  Huius causa possit inscriptionem Woerglcoin non validam aut URI parametra maleformata.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -680,8 +680,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Freicoin can no longer continue safely and will quit.</source>
-        <translation>Error fatalis accidit.  Freicoin nondum pergere tute potest, et exibit.</translation>
+        <source>A fatal error occurred. Woerglcoin can no longer continue safely and will quit.</source>
+        <translation>Error fatalis accidit.  Woerglcoin nondum pergere tute potest, et exibit.</translation>
     </message>
 </context>
 <context>
@@ -746,8 +746,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Freicoin address.</source>
-        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio Freicoin est.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Woerglcoin address.</source>
+        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio Woerglcoin est.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -765,8 +765,8 @@ Inscriptio: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Freicoin-Qt</source>
-        <translation>Freicoin-Qt</translation>
+        <source>Woerglcoin-Qt</source>
+        <translation>Woerglcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -828,13 +828,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Freicoin after logging in to the system.</source>
-        <translation>Pelle Freicoin per se postquam in systema inire.</translation>
+        <source>Automatically start Woerglcoin after logging in to the system.</source>
+        <translation>Pelle Woerglcoin per se postquam in systema inire.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Freicoin on system login</source>
-        <translation>&amp;Pelle Freicoin cum inire systema</translation>
+        <source>&amp;Start Woerglcoin on system login</source>
+        <translation>&amp;Pelle Woerglcoin cum inire systema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -853,8 +853,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Freicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Freicoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the Woerglcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Woerglcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -863,8 +863,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Freicoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecte ad rete Freicoin per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
+        <source>Connect to the Woerglcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecte ad rete Woerglcoin per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -938,8 +938,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Freicoin.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Freicoin iterum initiatum erit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Woerglcoin.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Woerglcoin iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -953,8 +953,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Freicoin addresses in the transaction list or not.</source>
-        <translation>Num monstrare inscriptiones Freicoin in enumeratione transactionum.</translation>
+        <source>Whether to show Woerglcoin addresses in the transaction list or not.</source>
+        <translation>Num monstrare inscriptiones Woerglcoin in enumeratione transactionum.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1005,8 +1005,8 @@ Inscriptio: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Freicoin.</source>
-        <translation>Haec configuratio effectiva erit postquam Freicoin iterum initiatum erit.</translation>
+        <source>This setting will take effect after restarting Woerglcoin.</source>
+        <translation>Haec configuratio effectiva erit postquam Woerglcoin iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1024,8 +1024,8 @@ Inscriptio: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Freicoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Freicoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Woerglcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Woerglcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1078,7 +1078,7 @@ Inscriptio: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start freicoin: click-to-pay handler</source>
+        <source>Cannot start woerglcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1228,8 +1228,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Freicoin-Qt help message to get a list with possible Freicoin command-line options.</source>
-        <translation>Monstra nuntium auxilii Freicoin-Qt ut videas enumerationem possibilium optionum Freicoin mandati initiantis.</translation>
+        <source>Show the Woerglcoin-Qt help message to get a list with possible Woerglcoin command-line options.</source>
+        <translation>Monstra nuntium auxilii Woerglcoin-Qt ut videas enumerationem possibilium optionum Woerglcoin mandati initiantis.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1248,13 +1248,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Freicoin - Debug window</source>
-        <translation>Freicoin - Fenestra debug</translation>
+        <source>Woerglcoin - Debug window</source>
+        <translation>Woerglcoin - Fenestra debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Freicoin Core</source>
-        <translation>Freicoin Nucleus</translation>
+        <source>Woerglcoin Core</source>
+        <translation>Woerglcoin Nucleus</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1263,8 +1263,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Freicoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de Freicoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+        <source>Open the Woerglcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de Woerglcoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1273,8 +1273,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Freicoin RPC console.</source>
-        <translation>Bene ventio in terminale RPC de Freicoin.</translation>
+        <source>Welcome to the Woerglcoin RPC console.</source>
+        <translation>Bene ventio in terminale RPC de Woerglcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1457,8 +1457,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Freicoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Insero inscriptionem Freicoin (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Woerglcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Insero inscriptionem Woerglcoin (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1522,8 +1522,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Freicoin address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem Freicoin a te possessa esse</translation>
+        <source>Sign the message to prove you own this Woerglcoin address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Woerglcoin a te possessa esse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1558,8 +1558,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Freicoin address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Freicoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Woerglcoin address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Woerglcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1574,8 +1574,8 @@ Inscriptio: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Freicoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Insere inscriptionem Freicoin (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Woerglcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Insere inscriptionem Woerglcoin (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1584,8 +1584,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Freicoin signature</source>
-        <translation>Insere signationem Freicoin</translation>
+        <source>Enter Woerglcoin signature</source>
+        <translation>Insere signationem Woerglcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1658,8 +1658,8 @@ Inscriptio: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Freicoin developers</source>
-        <translation>Freicoin curatores</translation>
+        <source>The Woerglcoin developers</source>
+        <translation>Woerglcoin curatores</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2226,8 +2226,8 @@ Inscriptio: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+131"/>
-        <source>Freicoin version</source>
-        <translation>Versio de Freicoin</translation>
+        <source>Woerglcoin version</source>
+        <translation>Versio de Woerglcoin</translation>
     </message>
     <message>
         <location line="+66"/>
@@ -2331,8 +2331,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Freicoin is probably already running.</source>
-        <translation>Non posse serare datorum indicem %s.  Freicoin probabiliter iam operatur.</translation>
+        <source>Cannot obtain a lock on data directory %s. Woerglcoin is probably already running.</source>
+        <translation>Non posse serare datorum indicem %s.  Woerglcoin probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Freicoin will not work properly.</source>
-        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, Freicoin non proprie fungetur.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Woerglcoin will not work properly.</source>
+        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, Woerglcoin non proprie fungetur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2541,7 +2541,7 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Send command to -server or freicoind</source>
+        <source>Send command to -server or woerglcoind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2551,12 +2551,12 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify configuration file (default: freicoin.conf)</source>
+        <source>Specify configuration file (default: woerglcoin.conf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: freicoind.pid)</source>
+        <source>Specify pid file (default: woerglcoind.pid)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2579,13 +2579,13 @@ Inscriptio: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=freicoinrpc
+rpcuser=woerglcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Freicoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Woerglcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2656,8 +2656,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Freicoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Freicoin Wiki for SSL setup instructions)</source>
-        <translation>Optiones SSL: (vide vici de Freicoin pro instructionibus SSL configurationis)</translation>
+        <source>SSL options: (see the Woerglcoin Wiki for SSL setup instructions)</source>
+        <translation>Optiones SSL: (vide vici de Woerglcoin pro instructionibus SSL configurationis)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2846,13 +2846,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Freicoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Freicoin</source>
-        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio Freicoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Woerglcoin</source>
+        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio Woerglcoin</translation>
     </message>
     <message>
         <location line="+94"/>
-        <source>Wallet needed to be rewritten: restart Freicoin to complete</source>
-        <translation>Cassidili necesse erat rescribi: Repelle Freicoin ut compleas</translation>
+        <source>Wallet needed to be rewritten: restart Woerglcoin to complete</source>
+        <translation>Cassidili necesse erat rescribi: Repelle Woerglcoin ut compleas</translation>
     </message>
     <message>
         <location line="-96"/>
@@ -2911,8 +2911,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Freicoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Freicoin is probably already running.</source>
-        <translation>Non posse conglutinare ad %s in hoc cumputatro.  Freicoin probabiliter iam operatur.</translation>
+        <source>Unable to bind to %s on this computer. Woerglcoin is probably already running.</source>
+        <translation>Non posse conglutinare ad %s in hoc cumputatro.  Woerglcoin probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+63"/>

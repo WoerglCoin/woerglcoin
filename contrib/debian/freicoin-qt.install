@@ -1,6 +1,6 @@
-freicoin-qt usr/bin
-share/pixmaps/freicoin32.xpm usr/share/pixmaps
-share/pixmaps/freicoin16.xpm usr/share/pixmaps
-share/pixmaps/freicoin128.png usr/share/pixmaps
-debian/freicoin-qt.desktop usr/share/applications
-debian/freicoin-qt.protocol usr/share/kde4/services/
+woerglcoin-qt usr/bin
+share/pixmaps/woerglcoin32.xpm usr/share/pixmaps
+share/pixmaps/woerglcoin16.xpm usr/share/pixmaps
+share/pixmaps/woerglcoin128.png usr/share/pixmaps
+debian/woerglcoin-qt.desktop usr/share/applications
+debian/woerglcoin-qt.protocol usr/share/kde4/services/
