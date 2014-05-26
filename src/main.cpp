@@ -3493,6 +3493,29 @@ Let this be the awaited dawn.";
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
         assert(block.hashMerkleRoot == uint256("0x099c75e8394949178aa449764c19c3ca55b6e8e81035c3e4673ff1e2e7003f58"));
+        
+        //// Code to hash a new genesis block. 
+        //// Will hash a new block as long as set to "true" and no valid genesis block found.
+        if (true && block.GetHash() != hashGenesisBlock)
+               {
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+            loop
+                        {
+                            if (block.GetHash() <= hashTarget)
+                                break;
+                            ++block.nNonce;
+                            if (block.nNonce == 0)
+                            {
+                                printf("NONCE WRAPPED, incrementing time\n");
+                                ++block.nTime;
+                            }
+                        }
+                        printf("block.nTime = %u \n", block.nTime);
+                        printf("block.nNonce = %u \n", block.nNonce);
+                        printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+                    }
+        //// Genesis block hash code end.
+        
         block.print();
         assert(hash == hashGenesisBlock);
 
