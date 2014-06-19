@@ -49,9 +49,9 @@ static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
 /** Fake height value used in CCoins to signify they are only in the memory pool (since 0.8) */
 static const unsigned int MEMPOOL_HEIGHT = 0x7FFFFFFF;
 /** No amount larger than this (in satoshi) is valid */
-static const int64 I64_MAX_MONEY = 9999999999999999LL;
-static const mpz MPZ_MAX_MONEY = mpz("9999999999999999");
-static const mpq MPQ_MAX_MONEY = mpq("9999999999999999/1");
+static const int64 I64_MAX_MONEY = 1999999999999999LL;
+static const mpz MPZ_MAX_MONEY = mpz("1999999999999999");
+static const mpq MPQ_MAX_MONEY = mpq("1999999999999999/1");
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= I64_MAX_MONEY); }
 inline bool MoneyRange(mpz zValue) { return (zValue >= 0 && zValue <= MPZ_MAX_MONEY); }
 inline bool MoneyRange(mpq qValue) { return (qValue >= 0 && qValue <= MPQ_MAX_MONEY); }
