@@ -1136,7 +1136,7 @@ bool static VerifyBudget(const std::map<CTxDestination, mpq>& mapBudget,
 mpq static GetInitialDistributionAmount(int nHeight)
 {
     mpq nSubsidy = 0;
-    if (nHeight <= 25000) {
+    if (nHeight < 25000) {
         mpq nSubsidy = 4000 * COIN;
         // Subsidy is cut in half every 2500 blocks, which will occur approximately every 17.36 days ~98% will be distributed within 174 days
         nSubsidy >>= (nHeight / 2500);
@@ -1477,13 +1477,13 @@ CBudget static GetInitialDistributionBudget(int nHeight)
     }
 
     static CBudget emptyBudget = CBudget(0, std::vector<CBudgetEntry>());
-    if ( nHeight >= EQ_HEIGHT )
+    if ( nHeight >= 25000 )
         return emptyBudget;
 
     std::vector<CBudgetEntry> vBudgetEntries;
     vBudgetEntries.reserve(1);
-    vBudgetEntries.push_back(CBudgetEntry(1, vAddresses[nHeight*320/EQ_HEIGHT].Get()));
-    mpq qRatio = TITHE_AMOUNT / GetInitialDistributionAmount(nHeight);
+    vBudgetEntries.push_back(CBudgetEntry(1, vAddresses[nHeight*320/25000].Get()));
+    mpq qRatio = 19/20;
     return CBudget(qRatio, vBudgetEntries);
 }
 
