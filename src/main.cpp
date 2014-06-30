@@ -1136,9 +1136,11 @@ bool static VerifyBudget(const std::map<CTxDestination, mpq>& mapBudget,
 mpq static GetInitialDistributionAmount(int nHeight)
 {
     mpq nSubsidy = 0;
-     mpq nSubsidy = 4000 * COIN;
-    // Subsidy is cut in half every 2500 blocks, which will occur approximately every 17.36 days
-    nSubsidy >>= (nHeight / 2500); 
+    if (nHeight <= 25000) {
+        mpq nSubsidy = 4000 * COIN;
+        // Subsidy is cut in half every 2500 blocks, which will occur approximately every 17.36 days ~98% will be distributed within 174 days
+        nSubsidy >>= (nHeight / 2500);
+    }
     return nSubsidy;
 }
 
